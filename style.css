@@ -1,0 +1,94 @@
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.score-bord {
+  color: #fff;
+}
+
+h1 {
+  background-color: #081b08;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+  text-shadow: 0px 0px 4px #fefefe;
+  box-shadow: 0px 0px 36px #4c71409c;
+}
+#reset-btn {
+  color: #fff;
+  border: none;
+  background-color: #011c07;
+  font-size: 21px;
+  text-shadow: 0px 0px 8px #fefefe;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: black;
+  border: none;
+  background-color: #ffff;
+  margin: 0;
+  cursor: pointer;
+}
+.heading button {
+  position: absolute;
+  top: 21px;
+  right: 29px;
+  margin: 10px;
+}
+.choice {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.choice :hover {
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: greenyellow;
+}
+#rock {
+  box-shadow: 0px 0px 22px #fa61d3;
+}
+#paper {
+  box-shadow: 0px 0px 22px #4aacff;
+}
+#sisseor {
+  box-shadow: 0px 0px 22px #f3ff2d;
+}
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.choicse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+.score-bord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 4rem;
+  gap: 5rem;
+}
+#user-score,
+#comp-score {
+  font-size: 3rem;
+}
+.msg-container {
+  color: #000000;
+  margin-top: 3rem;
+}
+#msg {
+  background-color: aliceblue;
+  display: inline;
+  font-size: 2rem;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  box-shadow: 0px 1px 34px #f3f3f3;
+}
