@@ -5,9 +5,9 @@ let cpSc = document.querySelector("#comp-score");
 const choiecs = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
 const reset = document.querySelector("#reset-btn");
-const winnerAudio = new Audio("./songs/victory.mp3");
-const loseAudio = new Audio("./songs/loseBuz.mp3");
-const clickAudio = new Audio("./songs/click.mp3");
+const winnerAudio = new Audio("./sounds/victory.mp3");
+const loseAudio = new Audio("./sounds/loseBuz.mp3");
+const clickAudio = new Audio("./sounds/click.mp3");
 
 const resetGame = () => {
     userScore = 0;
